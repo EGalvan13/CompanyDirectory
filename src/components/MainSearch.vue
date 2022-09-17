@@ -1,8 +1,8 @@
 <template>
   <div class="wrapper">
     <input type="text" placeholder="Search Staff Member" class="search" />
-    <span class="icon"
-      ><svg
+    <span class="icon">
+      <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
@@ -22,7 +22,7 @@
 
 <style scoped lang="postcss">
   .wrapper {
-    @apply relative flex w-full items-stretch;
+    @apply relative flex w-60 items-stretch;
     .search {
       @apply rounded-md border-0 px-8 py-4 text-slate-700 placeholder-slate-400 outline-none focus:ring focus:ring-teal-100;
     }
