@@ -1,6 +1,7 @@
 <script setup>
   import MainSearch from './MainSearch.vue'
   import MainCards from './MainCards.vue'
+  import MainPagination from './MainPagination.vue'
 </script>
 
 <template>
